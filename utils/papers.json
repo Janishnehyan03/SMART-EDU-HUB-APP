@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "title": "Paper 1",
+    "image": "https://plus.unsplash.com/premium_photo-1701882451626-755af9d9cb27?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "$19",
+    "description": "A comprehensive course covering calculus fundamentals and linear algebra.",
+    "units": [
+      {
+        "id": 1,
+        "title": "Unit 1: Calculus Fundamentals",
+        "videos": [
+          {
+            "id": 1,
+            "title": "Fundamentals of Differentiation",
+            "videoUrl": "https://www.youtube.com/watch?v=z9-wCOgNHIU"
+          },
+          {
+            "id": 2,
+            "title": "Integration Techniques",
+            "videoUrl": "https://www.youtube.com/watch?v=z9-wCOgNHIU"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Unit 2: Linear Algebra",
+        "videos": [
+          {
+            "id": 3,
+            "title": "Matrix Operations",
+            "videoUrl": "https://www.youtube.com/watch?v=z9-wCOgNHIU"
+          },
+          {
+            "id": 4,
+            "title": "Eigenvalues and Eigenvectors",
+            "videoUrl": "https://www.youtube.com/watch?v=z9-wCOgNHIU"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Paper 2",
+    "image": "https://images.unsplash.com/photo-1701781741800-feacbac1d7a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHx8fA%3D%3D0",
+    "price": "$24",
+    "description": "Explore data analysis and machine learning basics in this Paper 2 course.",
+    "units": [
+      {
+        "id": 3,
+        "title": "Unit 1: Exploratory Data Analysis",
+        "videos": [
+          {
+            "id": 5,
+            "title": "Introduction to Data Visualization",
+            "videoUrl": "https://www.youtube.com/watch?v=z9-wCOgNHIU"
+          },
+          {
+            "id": 6,
+            "title": "Statistical Analysis",
+            "videoUrl": "https://www.youtube.com/watch?v=z9-wCOgNHIU"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Unit 2: Machine Learning Basics",
+        "videos": [
+          {
+            "id": 7,
+            "title": "Supervised Learning Algorithms",
+            "videoUrl": "https://www.youtube.com/watch?v=z9-wCOgNHIU"
+          },
+          {
+            "id": 8,
+            "title": "Unsupervised Learning Techniques",
+            "videoUrl": "https://www.youtube.com/watch?v=z9-wCOgNHIU"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "ENGLISH",
+    "image": "https://images.unsplash.com/photo-1701771722319-f2374a70775d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D0",
+    "price": "$14",
+    "description": "Improve your English language skills with our English course.",
+    "units": []
+  },
+  {
+    "id": 4,
+    "title": "ARABIC",
+    "image": "https://plus.unsplash.com/premium_photo-1696863126083-00f45d5f9112?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "$12",
+    "description": "Learn the beautiful Arabic language with our expert instructors.",
+    "units": []
+  },
+  {
+    "id": 5,
+    "title": "SCIENCE",
+    "image": "https://images.unsplash.com/photo-1701771722319-f2374a70775d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D0",
+    "price": "$19",
+    "description": "Dive into the fascinating world of science with our Science course.",
+    "units": []
+  },
+  {
+    "id": 6,
+    "title": "TECHNOLOGY",
+    "image": "https://plus.unsplash.com/premium_photo-1700012853449-b88aa642f37d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8fA%3D%3D",
+    "price": "$29",
+    "description": "Explore the latest in technology with our comprehensive Technology course.",
+    "units": []
+  }
+]
