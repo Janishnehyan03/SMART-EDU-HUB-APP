@@ -1,8 +1,8 @@
 // VideosScreen.js
+import {useNavigation} from '@react-navigation/native';
 import React from 'react';
 import {FlatList, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
-import {LIGHT_ORANGE, VIOLET_COLOR} from '../utils/Consts';
-import {useNavigation} from '@react-navigation/native';
+import {GREEN_COLOR, VIOLET_COLOR} from '../utils/Consts';
 
 const VideosScreen = ({route}) => {
   const navigation = useNavigation();
@@ -11,7 +11,8 @@ const VideosScreen = ({route}) => {
   return (
     <View>
       <Text style={styles.title}>{paper.title}</Text>
-      <Text style={{fontSize: 20, fontWeight: 'bold', margin: 16}}>
+      <Text
+        style={{fontSize: 20, fontWeight: 'bold', margin: 16, marginLeft: 16}}>
         {unit.title}
       </Text>
       <FlatList
@@ -23,7 +24,8 @@ const VideosScreen = ({route}) => {
               navigation.navigate('Learn', {video: item});
             }}
             style={styles.videoCard}>
-            <Text>{item.title}</Text>
+            <Text style={styles.videoTitle}>{item.title}</Text>
+            <Text style={styles.description}>{item?.description}</Text>
           </TouchableOpacity>
         )}
       />
@@ -42,10 +44,18 @@ const styles = StyleSheet.create({
     padding: 16,
     borderBottomWidth: 1,
     borderBottomColor: '#ccc',
-    backgroundColor: LIGHT_ORANGE,
+    backgroundColor: GREEN_COLOR,
     marginHorizontal: 8,
     marginVertical: 2,
     borderRadius: 20,
+  },
+  videoTitle: {
+    fontWeight: 'bold',
+    fontSize: 16,
+    marginBottom: 8,
+  },
+  description: {
+    color: '#31304D',
   },
 });
 export default VideosScreen;

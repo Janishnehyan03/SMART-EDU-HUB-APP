@@ -1,10 +1,9 @@
 import React from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import {ScrollView, StyleSheet, Text, View} from 'react-native';
 import YoutubePlayer from 'react-native-youtube-iframe';
 
 const LearnScreen = ({route}) => {
   const {video} = route.params;
-
   const getYoutubeVideoId = url => {
     // Extract the video ID from the URL
     const regExp = /^.*(youtu.be\/|v\/|e\/|u\/\w+\/|embed\/|v=)([^#\&\?]*).*/;
@@ -30,7 +29,12 @@ const LearnScreen = ({route}) => {
         <Text style={styles.description}>{video.description}</Text>
 
         <Text style={styles.sectionTitle}>Prescribed Notes:</Text>
-        <Text style={styles.notes}>{video?.prescribedNotes}</Text>
+        {video.notes.length > 0 &&
+          video.notes.map((note, key) => (
+            <Text style={styles.notes} key={key}>
+              {note}
+            </Text>
+          ))}
       </View>
     </ScrollView>
   );
@@ -50,7 +54,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   description: {
-    fontSize: 16,
+    fontSize: 14,
     marginBottom: 16,
   },
   sectionTitle: {
@@ -61,6 +65,10 @@ const styles = StyleSheet.create({
   notes: {
     fontSize: 16,
     marginBottom: 16,
+    backgroundColor: '#B6C4B6',
+    padding: 8,
+    color: '#fff',
+    borderRadius: 10,
   },
   reviewContainer: {
     flexDirection: 'row',

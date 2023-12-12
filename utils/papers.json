@@ -13,11 +13,18 @@
           {
             "id": 1,
             "title": "Fundamentals of Differentiation",
-            "videoUrl": "https://www.youtube.com/watch?v=z9-wCOgNHIU"
+            "videoUrl": "https://www.youtube.com/watch?v=z9-wCOgNHIU",
+            "description": "A comprehensive course covering calculus fundamentals and linear algebra.",
+            "notes": [
+              "If the mountains are declared to be in constant motion, then the only logical inference to be drawn from this would be that the earth is also rotating along with them. But thanks to the masterly language of the Quran this observation went unnoticed. They had the impression, shared with the rest of mankind,",
+              "Again, in many other verses the Quran refers to the mountains as ravasiya which means 'firmly rooted in the earth':",
+              "And He has placed in the earth firm mountains that they may provide you food, and rivers and routes that you may be guided.11"
+            ]
           },
           {
             "id": 2,
             "title": "Integration Techniques",
+            "description": "A comprehensive course covering calculus fundamentals and linear algebra.",
             "videoUrl": "https://www.youtube.com/watch?v=z9-wCOgNHIU"
           }
         ]
